@@ -2,7 +2,6 @@
 Physion's(app.physion.net) dedicated script library.
 
 _NONE OF THESE SCRIPTS ARE MINE_  
----
 
 > Rules:  
 - Post your own scripts by sending a pull request.
