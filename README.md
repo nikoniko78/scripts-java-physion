@@ -1,4 +1,6 @@
+---
 _NONE OF THESE SCRIPTS ARE MINE_  
+---
 
 > Rules:  
 - Post your own scripts by sending a pull request.
