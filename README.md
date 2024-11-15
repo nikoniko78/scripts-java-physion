@@ -1,5 +1,5 @@
 
-# [Physion's](https://app.physion.net) dedicated script library.  <span style="float:right;"><img src="https://img.shields.io/badge/status-active-brightgreen"></span>
+# [Physion's](https://app.physion.net) dedicated script library.  <span_style="float: right;"><img src="https://img.shields.io/badge/status-active-brightgreen"></span>
 _NONE OF THESE SCRIPTS ARE MINE_  
 
 ## Rules:  
