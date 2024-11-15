@@ -1,5 +1,5 @@
 
-# [Physion's](https://app.physion.net) dedicated script library.  
+# [Physion's](https://app.physion.net) dedicated script library.  <span style="display: inline-block; width: 80%;">Welcome to the project!</span> <span style="display: inline-block; text-align: right; width: 20%;"><img src="https://img.shields.io/badge/status-active-brightgreen" alt="Status Badge"></span>
 _NONE OF THESE SCRIPTS ARE MINE_  
 
 ## Rules:  
