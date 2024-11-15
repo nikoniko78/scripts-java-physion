@@ -16,4 +16,4 @@ _NONE OF THESE SCRIPTS ARE MINE_
 
 ![Static Badge](https://img.shields.io/badge/Status%3A-Under_Construction-orange?style=flat-square)
 
-<div style="text-align: right;"> <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Status Badge"> </div>
+<div style="display: flex; justify-content: space-between; align-items: center;"> <span>Welcome to the project!</span> <span style="margin-left: auto;"><img src="https://img.shields.io/badge/status-active-brightgreen" alt="Status Badge"></span> </div>
