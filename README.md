@@ -15,14 +15,3 @@ _NONE OF THESE SCRIPTS ARE MINE_
 |-------------|--------------|-----------------------------|----------------------------|---------------------|
 | Slow zone   | ./SlowZone.js  | Slows down objects which enter it | Ben Bell | [Scene](https://app.physion.net/scenes/slowzone-script)|
 
-# My Project
-
-<div style="border: 2px solid #4CAF50; border-radius: 15px; padding: 10px; background-color: #f9f9f9;">
-  <h2>Title Inside the Box</h2>
-  <p>This is a rounded box with some elements inside it.</p>
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-  </ul>
-</div>
