@@ -15,4 +15,4 @@ _NONE OF THESE SCRIPTS ARE MINE_
 |-------------|--------------|-----------------------------|----------------------------|---------------------|
 | Slow zone   | ./SlowZone.js  | Slows down objects which enter it | Ben Bell | [Scene](https://app.physion.net/scenes/slowzone-script)|
 
-<details> <summary>Toggle Options</summary> <input type="radio" id="on" name="toggle" checked> <label for="on">On</label> <input type="radio" id="off" name="toggle"> <label for="off">Off</label> </details>
+
