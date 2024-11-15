@@ -14,3 +14,6 @@ _NONE OF THESE SCRIPTS ARE MINE_
 | Script Name | File         | Use                         | Credit                       | Link              |
 |-------------|--------------|-----------------------------|----------------------------|---------------------|
 | Slow zone   | ./SlowZone.js  | Slows down objects which enter it | Ben Bell | [Scene](https://app.physion.net/scenes/slowzone-script)|
+
+
+<details> <summary>Options for Editors</summary> <ul> <li>Option 1: Edit Project Details</li> <li>Option 2: Review Pull Requests</li> </ul> </details>
