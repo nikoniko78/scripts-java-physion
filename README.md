@@ -1,5 +1,5 @@
 
-# [Physion's](https://app.physion.net) dedicated script library.  |  ![Static Badge](https://img.shields.io/badge/Status%3A-Under_Construction-orange?style=flat-square)
+# [Physion's](https://app.physion.net) dedicated script library.  |  ![Static Badge](https://img.shields.io/badge/Status%3A-Under_Construction-orange?style=flat-square) |  
 _NONE OF THESE SCRIPTS ARE MINE_  
 
 ## Rules:  
@@ -13,7 +13,4 @@ _NONE OF THESE SCRIPTS ARE MINE_
 | Script Name | File         | Use                         | Credit                       | Link              |
 |-------------|--------------|-----------------------------|----------------------------|---------------------|
 | Slow Zone   | ./SlowZone.js  | Slows down objects which enter it | Ben Bell | [Scene](https://app.physion.net/scenes/slowzone-script)|
-
-![Static Badge](https://img.shields.io/badge/Status%3A-Under_Construction-orange?style=flat-square)
-
 
