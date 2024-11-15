@@ -8,7 +8,6 @@ _NONE OF THESE SCRIPTS ARE MINE_
 - You can edit the README to include your script and info in the table below.
 - All change requests will be pended until the next day if they are sent past **4:15PM(EST)**.
 
-<details> <summary>Click to expand!</summary> **Item 1:** Description for item 1. **Item 2:** Description for item 2. **Item 3:** Description for item 3. </details>
 
 ## Scripts:
 
