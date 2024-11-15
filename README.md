@@ -16,4 +16,6 @@ _NONE OF THESE SCRIPTS ARE MINE_
 | Slow zone   | ./SlowZone.js  | Slows down objects which enter it | Ben Bell | [Scene](https://app.physion.net/scenes/slowzone-script)|
 
 
-<div style="background-color: lightblue; padding: 10px;"> <h2>Custom Styled Box</h2> <p>This box has custom styling using HTML.</p> </div>
+- [x] Task 1
+- [ ] Task 2
+- [ ] Task 3
