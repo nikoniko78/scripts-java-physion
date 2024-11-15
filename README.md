@@ -1,5 +1,5 @@
 
-# [Physion's](https://app.physion.net) dedicated script library.  |  ![Static Badge](https://img.shields.io/badge/Status%3A-Under_Construction-orange?style=flat-square) |  
+# [Physion's](https://app.physion.net) dedicated script library.  |  ![Static Badge](https://img.shields.io/badge/Status%3A-Available-brightgreen?style=flat-square) |  
 _NONE OF THESE SCRIPTS ARE MINE_  
 
 ## Rules:  
