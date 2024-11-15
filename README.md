@@ -1,5 +1,5 @@
 
-# [Physion's](https://app.physion.net) dedicated script library.  <table style="width: 100%;"> <tr> <td>Welcome to the project!</td> <td align="right"><img src="https://img.shields.io/badge/status-active-brightgreen" alt="Status Badge"></td> </tr> </table>
+# [Physion's](https://app.physion.net) dedicated script library.  <span style="float: right;"><img src="https://img.shields.io/badge/status-active-brightgreen"
 _NONE OF THESE SCRIPTS ARE MINE_  
 
 ## Rules:  
