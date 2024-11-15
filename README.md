@@ -16,3 +16,4 @@ _NONE OF THESE SCRIPTS ARE MINE_
 
 ![Static Badge](https://img.shields.io/badge/Status%3A-Under_Construction-orange?style=flat-square)
 
+<div style="text-align: right;"> <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Status Badge"> </div>
