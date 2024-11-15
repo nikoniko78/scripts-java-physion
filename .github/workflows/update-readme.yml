@@ -1,0 +1,27 @@
+name: Update README with Repository Activity
+
+on:
+  schedule:
+    - cron: "0 * * * *"  # Runs every hour
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Get repository activity
+        id: get-activity
+        run: |
+          echo "Latest commit: $(git log -1 --format='%H %s')"
+          echo "Latest activity: $(git log -1 --format='%cd')"
+          echo "::set-output name=activity::$(git log -1 --format='%cd')"
+
+      - name: Update README
+        run: |
+          echo -e "## Repository Activity\n\nLatest activity: ${{ steps.get-activity.outputs.activity }}" >> README.md
+          git add README.md
+          git commit -m "Update README with latest activity"
+          git push
