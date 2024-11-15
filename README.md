@@ -15,4 +15,4 @@ _NONE OF THESE SCRIPTS ARE MINE_
 |-------------|--------------|-----------------------------|----------------------------|---------------------|
 | Slow zone   | ./SlowZone.js  | Slows down objects which enter it | Ben Bell | [Scene](https://app.physion.net/scenes/slowzone-script)|
 
-![Repository_Status](https://img.shields.io/badge/Status:-Under_Construction-orange)
+
