@@ -1,6 +1,5 @@
 
-# [Physion's](https://app.physion.net) dedicated script library.          ![Static Badge](https://img.shields.io/badge/Status%3A-Under_Construction-orange?style=flat-square&logoSize=large)
-
+# [Physion's](https://app.physion.net) dedicated script library.         <p align="right"> <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Status Badge"> </p>
 
 _NONE OF THESE SCRIPTS ARE MINE_  
 
