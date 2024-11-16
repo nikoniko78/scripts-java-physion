@@ -13,9 +13,9 @@ _NONE OF THESE SCRIPTS ARE MINE_
 
 | Script Name | File         | Use                         | Credit                       | Link              |Note                |
 |-------------|--------------|-----------------------------|----------------------------|---------------------|--------------------|
-| Slow Zone   | ./SlowZone.js  | Slows down nodes which enter it | Ben Bell | [Slowzone Script](https://app.physion.net/scenes/slowzone-script)|Link down|
+| Slow Zone   | ./SlowZone.js  | Slows down nodes which enter it | Ben Bell | [Slowzone Script](https://app.physion.net/scenes/slowzone-script)||
 |Duplicator|./Duplicator.js|Duplicates nodes that enter it|Unknown-Scene not found|Unknown|Could not find original creator|
-|Bomb         |./Bomb_Script.js|Creates an explosion on contact|ssorc j| [Scene Obliterating Nuke](https://app.physion.net/scenes/scene-obliterating-nuke)|Link down|
+|Bomb         |./Bomb_Script.js|Creates an explosion on contact|ssorc j| [Scene Obliterating Nuke](https://app.physion.net/scenes/scene-obliterating-nuke)||
 |Engine Spring|./EngineSpring.js|Creates a spring which acts like fuel combustion in an engine|Aiden Ravenshea|[Car+Engine!](https://app.physion.net/scenes/car-engine-1qItEQwO-)|Specialized script|
 |Expand And Split|./ExpandAndSplit.js|Makes a circle expand and duplicate infinitely|ssorc j|[expand and split](https://app.physion.net/scenes/expand-and-split)|Not intended for actual use|
-|Laser|./Laser_Script--Vector.js|Creates a raytraced beam|Box|[Laser (test)](https://app.physion.net/scenes/laser-test)
+|Laser|./Laser_Script--Vector.js|Creates a raytraced beam|Box|[Laser (test)](https://app.physion.net/scenes/laser-test)||
