@@ -15,4 +15,4 @@ _NONE OF THESE SCRIPTS ARE MINE_
 |-------------|--------------|-----------------------------|----------------------------|---------------------|
 | Slow Zone   | ./SlowZone.js  | Slows down objects which enter it | Ben Bell | [Scene](https://app.physion.net/scenes/slowzone-script)|
 |-------------|--------------|-----------------------------|----------------------------|---------------------|
-|Bomb         |./Bomb_Script.js|Creates an explosion on contact|
+|Bomb         |./Bomb_Script.js|Creates an explosion on contact|ssorc j| [Scene](https://app.physion.net/scenes/scene-obliterating-nuke)|
