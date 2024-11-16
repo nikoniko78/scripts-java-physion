@@ -16,6 +16,9 @@ _NONE OF THESE SCRIPTS ARE MINE_
 |Slow Zone| ./SlowZone.js  | Slows down nodes which enter it | Ben Bell | [Slowzone Script](https://app.physion.net/scenes/slowzone-script)||
 |Duplicator|./Duplicator.js|Duplicates nodes that enter it|Unknown-Scene not found|Unknown|Could not find original creator|
 |Bomb|./Bomb_Script.js|Creates an explosion on contact|ssorc j| [Scene Obliterating Nuke](https://app.physion.net/scenes/scene-obliterating-nuke)||
+
+<details> <summary>Show More</summary>
+
 |Engine Spring|./EngineSpring.js|Creates a spring which acts like fuel combustion in an engine|Aiden Ravenshea|[Car+Engine!](https://app.physion.net/scenes/car-engine-1qItEQwO-)|Specialized script|
 |Expand And Split|./ExpandAndSplit.js|Makes a circle expand and duplicate infinitely|ssorc j|[expand and split](https://app.physion.net/scenes/expand-and-split)|Not intended for actual use|
 |Laser|./Laser_Script--Vector.js|Creates a raytraced beam|Box|[Laser (test)](https://app.physion.net/scenes/laser-test)||
@@ -24,4 +27,4 @@ _NONE OF THESE SCRIPTS ARE MINE_
 |Teleporter|./Teleporter.js|Teleports objects to another specified node|Dimitris|[Teleporters](https://app.physion.net/scenes/teleporters)|Type the exit node ID into the space provided|
 |Timer|./Timer.js|Starts a timer from a text node|Sirfryingpan|[Timer Script(Free to use)](https://app.physion.net/scenes/timer-script-free-to-use)|Default is 5 minutes. Follow instructions on script to change|
 
-
+</details>
