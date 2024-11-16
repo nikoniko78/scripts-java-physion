@@ -17,7 +17,7 @@ _NONE OF THESE SCRIPTS ARE MINE_
 |Duplicator|./Duplicator.js|Duplicates nodes that enter it|Unknown-Scene not found|Unknown|Could not find original creator|
 |Bomb|./Bomb_Script.js|Creates an explosion on contact|ssorc j| [Scene Obliterating Nuke](https://app.physion.net/scenes/scene-obliterating-nuke)||
 
-<details> <summary style="text-align: center; cursor: pointer; width: 100%; display: inline-block;">Show More</summary>
+<details> <summary>Show All</summary>
 
 <br>
 
@@ -33,6 +33,4 @@ _NONE OF THESE SCRIPTS ARE MINE_
 
 </details>
 
-<details> <summary style="text-align: center; cursor: pointer; width: 100%; display: inline-block;">Show More</summary>
 
-<details> <summary>Show All</summary>
