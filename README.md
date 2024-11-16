@@ -9,7 +9,7 @@ _NONE OF THESE SCRIPTS ARE MINE_
 - All change requests will be pended until the next day if they are sent past **4:15PM(EST)**.
 
 
-## Scripts:
+## Scripts: (Links are cuurrently down.)
 
 | Script Name | File         | Use                         | Credit                       | Link              |
 |-------------|--------------|-----------------------------|----------------------------|---------------------|
