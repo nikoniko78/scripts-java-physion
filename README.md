@@ -33,5 +33,4 @@ _NONE OF THESE SCRIPTS ARE MINE_
 
 </details>
 
-> [!TIP]
-> Requests will get added much faster if you send a pull request. This makes it easier for me to add your script, as I can directly merge it.
+
