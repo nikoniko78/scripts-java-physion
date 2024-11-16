@@ -17,7 +17,7 @@ _NONE OF THESE SCRIPTS ARE MINE_
 |Duplicator|./Duplicator.js|Duplicates nodes that enter it|Unknown-Scene not found|Unknown|Could not find original creator|
 |Bomb|./Bomb_Script.js|Creates an explosion on contact|ssorc j| [Scene Obliterating Nuke](https://app.physion.net/scenes/scene-obliterating-nuke)||
 
-<details> <summary>Show All</summary>
+<details> <summary style="text-align: center; cursor: pointer; width: 100%; display: inline-block;">Show More</summary>
 
 <br>
 
@@ -32,3 +32,7 @@ _NONE OF THESE SCRIPTS ARE MINE_
 |Timer|./Timer.js|Starts a timer from a text node|Sirfryingpan|[Timer Script(Free to use)](https://app.physion.net/scenes/timer-script-free-to-use)|Default is 5 minutes. Follow instructions on script to change|
 
 </details>
+
+<details> <summary style="text-align: center; cursor: pointer; width: 100%; display: inline-block;">Show More</summary>
+
+<details> <summary>Show All</summary>
