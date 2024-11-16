@@ -20,6 +20,7 @@ _NONE OF THESE SCRIPTS ARE MINE_
 <details> <summary>Show All</summary>
 
 <br>
+---
 
 | Script Name | File         | Use                         | Credit                       | Link              |Note                |
 |-------------|--------------|-----------------------------|----------------------------|---------------------|--------------------|
