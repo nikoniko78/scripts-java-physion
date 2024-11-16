@@ -9,12 +9,13 @@ _NONE OF THESE SCRIPTS ARE MINE_
 - All change requests will be pended until the next day if they are sent past **4:15PM(EST)**.
 
 
-## Scripts: (Links are currently down.)
+## Scripts: (Links are currently down. Search the name of the link on Physion to find scene.)
 
 | Script Name | File         | Use                         | Credit                       | Link              |Note                |
 |-------------|--------------|-----------------------------|----------------------------|---------------------|--------------------|
-| Slow Zone   | ./SlowZone.js  | Slows down nodes which enter it | Ben Bell | [Scene](https://app.physion.net/scenes/slowzone-script)|Link down|
+| Slow Zone   | ./SlowZone.js  | Slows down nodes which enter it | Ben Bell | [Slowzone Script](https://app.physion.net/scenes/slowzone-script)|Link down|
 |Duplicator|./Duplicator.js|Duplicates nodes that enter it|Unknown-Scene not found|Unknown|Could not find original creator|
-|Bomb         |./Bomb_Script.js|Creates an explosion on contact|ssorc j| [Scene](https://app.physion.net/scenes/scene-obliterating-nuke)|Link down|
-|Engine Spring|./EngineSpring.js|Creates a spring which acts like fuel combustion in an engine|Aiden Ravenshea|[Scene](https://app.physion.net/scenes/car-engine-1qItEQwO-)|Specialized script|
-|Expand And Split|./ExpandAndSplit.js|Makes a circle expand and duplicate infinitely|ssorc j|[Scene](https://app.physion.net/scenes/expand-and-split)|Not intended for actual use|
+|Bomb         |./Bomb_Script.js|Creates an explosion on contact|ssorc j| [Scene Obliterating Nuke](https://app.physion.net/scenes/scene-obliterating-nuke)|Link down|
+|Engine Spring|./EngineSpring.js|Creates a spring which acts like fuel combustion in an engine|Aiden Ravenshea|[Car+Engine!](https://app.physion.net/scenes/car-engine-1qItEQwO-)|Specialized script|
+|Expand And Split|./ExpandAndSplit.js|Makes a circle expand and duplicate infinitely|ssorc j|[expand and split](https://app.physion.net/scenes/expand-and-split)|Not intended for actual use|
+|Laser|./Laser_Script--Vector.js|Creates a raytraced beam|Box|[Laser (test)](https://app.physion.net/scenes/laser-test)
