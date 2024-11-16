@@ -13,5 +13,6 @@ _NONE OF THESE SCRIPTS ARE MINE_
 
 | Script Name | File         | Use                         | Credit                       | Link              |Link Status               |
 |-------------|--------------|-----------------------------|----------------------------|---------------------|--------------------------|
-| Slow Zone   | ./SlowZone.js  | Slows down objects which enter it | Ben Bell | [Scene](https://app.physion.net/scenes/slowzone-script)  | ![Static Badge](https://img.shields.io/badge/Status%3A-Down-yellow?style=flat-square)|
+| Slow Zone   | ./SlowZone.js  | Slows down objects which enter it | Ben Bell | [Scene](https://app.physion.net/scenes/slowzone-script)  |![Static Badge](https://img.shields.io/badge/Down-yellow)
+|
 
