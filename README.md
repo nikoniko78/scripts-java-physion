@@ -18,7 +18,7 @@ _NONE OF THESE SCRIPTS ARE MINE_
 |Bomb|./Bomb_Script.js|Creates an explosion on contact|ssorc j| [Scene Obliterating Nuke](https://app.physion.net/scenes/scene-obliterating-nuke)||
 
 <details> <summary>Show All</summary>
----
+
 <br>
 
 | Script Name | File         | Use                         | Credit                       | Link              |Note                |
