@@ -20,3 +20,7 @@ _NONE OF THESE SCRIPTS ARE MINE_
 |Expand And Split|./ExpandAndSplit.js|Makes a circle expand and duplicate infinitely|ssorc j|[expand and split](https://app.physion.net/scenes/expand-and-split)|Not intended for actual use|
 |Laser|./Laser_Script--Vector.js|Creates a raytraced beam|Box|[Laser (test)](https://app.physion.net/scenes/laser-test)||
 |Self Driver|./SelfDriver.js|A car with raytraced circles that can solve mazes|Aiden Ravenshea|[Car VS Maze!](https://app.physion.net/scenes/car-vs-maze)|This scene is featured|
+|Snake Game|./SnakeGame.js|Creates the popular game Snake on physion.|Dimitris|[Snake Game](https://app.physion.net/scenes/snake-game)|Follow instructions on script to use|
+|Teleporter|./Teleporter.js|Teleports objects to another specified node|Dimitris|[Teleporters](https://app.physion.net/scenes/teleporters)|Type the exit node ID into the space provided|
+|Timer|./Timer.js|Starts a timer from a text node|Sirfryingpan|[Timer Script(Free to use)](https://app.physion.net/scenes/timer-script-free-to-use)|Default is 5 minutes. Follow instructions on script to change|
+
