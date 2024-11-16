@@ -18,7 +18,8 @@ _NONE OF THESE SCRIPTS ARE MINE_
 |Bomb|./Bomb_Script.js|Creates an explosion on contact|ssorc j| [Scene Obliterating Nuke](https://app.physion.net/scenes/scene-obliterating-nuke)||
 
 <details> <summary>Show More</summary>
-
+| Script Name | File         | Use                         | Credit                       | Link              |Note                |
+|-------------|--------------|-----------------------------|----------------------------|---------------------|--------------------|
 |Engine Spring|./EngineSpring.js|Creates a spring which acts like fuel combustion in an engine|Aiden Ravenshea|[Car+Engine!](https://app.physion.net/scenes/car-engine-1qItEQwO-)|Specialized script|
 |Expand And Split|./ExpandAndSplit.js|Makes a circle expand and duplicate infinitely|ssorc j|[expand and split](https://app.physion.net/scenes/expand-and-split)|Not intended for actual use|
 |Laser|./Laser_Script--Vector.js|Creates a raytraced beam|Box|[Laser (test)](https://app.physion.net/scenes/laser-test)||
