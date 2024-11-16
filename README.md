@@ -9,7 +9,7 @@ _NONE OF THESE SCRIPTS ARE MINE_
 - All change requests will be pended until the next day if they are sent past **4:15PM(EST)**.
 
 
-## Scripts: (Links are currently down. Search the name of the link on Physion to find scene.)
+## Scripts:
 
 | Script Name | File         | Use                         | Credit                       | Link              |Note                |
 |-------------|--------------|-----------------------------|----------------------------|---------------------|--------------------|
