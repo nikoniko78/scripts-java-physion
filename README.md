@@ -33,5 +33,5 @@ _NONE OF THESE SCRIPTS ARE MINE_
 
 </details>
 
-> [!WARNING]
-> please..
+> [!TIP]
+> Pleae note that your script will recieve higher attention/ get added quicker if you create a pull request instead of a discussions request.
