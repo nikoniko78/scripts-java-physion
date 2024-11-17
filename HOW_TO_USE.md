@@ -1,6 +1,8 @@
 # How to implement a script on Physion:
 ![Application Screenshot](IMAGES/1.png)
+---
 ![Application Screenshot](IMAGES/2.png)
+---
 ![Application Screenshot](IMAGES/3.png)
 ![Application Screenshot](IMAGES/4.png)
 ![Application Screenshot](IMAGES/5.png)
