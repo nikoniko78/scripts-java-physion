@@ -1,6 +1,6 @@
 
 # [Physion's](https://app.physion.net) dedicated script library.  |  ![Static Badge](https://img.shields.io/badge/Status%3A-Available-brightgreen?style=flat-square) |
-_NONE OF THESE SCRIPTS ARE MINE_  
+_NONE OF THESE SCRIPTS ARE MINE_I DO NOT OWN PHYSION_  
 
 ## Rules:  
 - Post your own scripts by sending a pull request.
