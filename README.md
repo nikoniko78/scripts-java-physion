@@ -1,5 +1,7 @@
 
-# [Physion's](https://app.physion.net) dedicated script library. | ![Static Badge](https://img.shields.io/badge/Status%3A-Available-white?style=flat-square) |
+# [Physion's](https://app.physion.net) dedicated script library. | ![Static Badge](https://img.shields.io/badge/Status%3A-Available-green?style=flat-square&labelColor=black)
+
+) |
 >[!NOTE]  
 __I do not own app.physion.net or any of the scripts on this repository.__  
 
@@ -21,8 +23,6 @@ If you do not know how to use a script, [here is a tutorial.](https://github.com
 |Duplicator|./Duplicator.js|Duplicates nodes that enter it|Unknown-Scene not found|Unknown|Could not find original creator|
 |Bomb|./Bomb_Script.js|Creates an explosion on contact|ssorc j| [Scene Obliterating Nuke](https://app.physion.net/scenes/scene-obliterating-nuke)|Properties can be adjusted in script|
 ---
-
-![Static Badge](https://img.shields.io/badge/test-white?logoSize=auto)
 
 <details> <summary>Show All</summary>
 
