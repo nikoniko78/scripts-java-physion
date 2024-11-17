@@ -1,4 +1,5 @@
 # How to implement a script on Physion:
+### Go to the CODE section of the repository.
 1. ![Application Screenshot](IMAGES/1.png)
 2. ![Application Screenshot](IMAGES/2.png)
 3. ![Application Screenshot](IMAGES/3.png)
