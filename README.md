@@ -3,6 +3,8 @@
 >[!NOTE]  
 __I do not own app.physion.net or any of the scripts on this repository.__  
 
+If you do not know how to use a script, [here is a tutorial.](https://github.com/nikoniko78/scripts-java-physion/blob/main/HOW_TO_USE.md)
+
 ## Rules:  
 - Post your own scripts by sending a pull request.
 - Unrelated content will not be added.
