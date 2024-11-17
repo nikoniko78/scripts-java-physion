@@ -1,5 +1,5 @@
 
-# [Physion's](https://app.physion.net) dedicated script library. | ![Static Badge](https://img.shields.io/badge/Status%3A-Incomplete-deepred?style=flat-square&labelColor=black) |
+# [Physion's](https://app.physion.net) dedicated script library. | ![Static Badge](https://img.shields.io/badge/Status%3A-Incomplete-rgb(ff,00,00)?style=flat-square&labelColor=black) |
 
 >[!NOTE]  
 __I do not own app.physion.net or any of the scripts on this repository.__  
