@@ -10,7 +10,7 @@ If you do not know how to use a script, [here is a tutorial.](https://github.com
 - Unrelated content will not be added.
 - You can edit the README to include your script and info in the table below.
 - All change requests will be pended until the next day if they are sent past **4:15PM(EST)**.
-- Follow the [contrubuting_guidlines](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/DOCS/CONTRIBUTING.md)
+- Follow the [contrubuting guidlines](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/DOCS/CONTRIBUTING.md)
 
 
 ## Scripts:
