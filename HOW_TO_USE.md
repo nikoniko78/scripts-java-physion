@@ -22,7 +22,7 @@
 |------------------------------------------|------------------------------------------|
 ### Apply script.
 ![Application Screenshot](IMAGES/18.png)
-### Selected desired node.
+### Select desired node.
 ![Application Screenshot](IMAGES/19.png)
 ### Apply script to node.
 | ![Application Screenshot](IMAGES/20.png) | ![Application Screenshot](IMAGES/21.png) | ![Application Screenshot](IMAGES/22.png) |
