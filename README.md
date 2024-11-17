@@ -1,5 +1,5 @@
 
-# [Physion's](https://app.physion.net) dedicated script library.|(https://img.shields.io/badge/Status%3A-Available-brightgreen?style=flat-square)|
+# [Physion's](https://app.physion.net) dedicated script library. |[BADGE](https://img.shields.io/badge/Status%3A-Available-brightgreen?style=flat-square)|
 >[!NOTE]  
 __I do not own app.physion.net or any of the scripts on this repository.__  
 
@@ -35,4 +35,4 @@ __I do not own app.physion.net or any of the scripts on this repository.__
 </details>
 
 
-<p>Text on the left <img align="right" src="![Static Badge](https://img.shields.io/badge/Status%3A-Available-brightgreen?style=flat-square)"></p>
+<!--<p>Text on the left <img align="right" src="![Static Badge](https://img.shields.io/badge/Status%3A-Available-brightgreen?style=flat-square)"></p>-->
