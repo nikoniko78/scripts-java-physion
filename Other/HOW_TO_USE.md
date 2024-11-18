@@ -1,16 +1,14 @@
 # How to implement a script on Physion:
 ### Select the Scripts folder.
-![Application Screenshot](IMAGES/0.png)
+![Application Screenshot](IMAGES/1.png)
 ### Select your script.
-| ![Application Screenshot](IMAGES/1.png) | ![Application Screenshot](IMAGES/2.png) |
-|-----------------------------------------|-----------------------------------------|
+![Application Screenshot](IMAGES/2.png)
 ### Copy raw file.
-| ![Application Screenshot](IMAGES/3.png) | ![Application Screenshot](IMAGES/7.png) |
-|-----------------------------------------|-----------------------------------------|
+![Application Screenshot](IMAGES/3.png)
 ### Go to app.physion.net.
-![Application Screenshot](IMAGES/8.png)
+![Application Screenshot](IMAGES/4.png)
 ### Create a new scene.
-| ![Application Screenshot](IMAGES/9.png) | ![Application Screenshot](IMAGES/10.png) |
+| ![Application Screenshot](IMAGES/5.png) | ![Application Screenshot](IMAGES/6.png)  |
 |-----------------------------------------|------------------------------------------|
 ### Open the Assets Library.
 | ![Application Screenshot](IMAGES/11.png) | ![Application Screenshot](IMAGES/12.png) |
