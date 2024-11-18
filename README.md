@@ -31,7 +31,7 @@ If you do not know how to use a script, [here is a tutorial.](https://github.com
 |-------------|--------------|-----------------------------|----------------------------|---------------------|--------------------|
 |Engine Spring|./EngineSpring.js|Creates a spring which acts like fuel combustion in an engine|Aiden Ravenshea|[Car+Engine!](https://app.physion.net/scenes/car-engine-1qItEQwO-)|Specialized script|
 |Expand And Split|./ExpandAndSplit.js|Makes a circle expand and duplicate infinitely|ssorc j|[expand and split](https://app.physion.net/scenes/expand-and-split)|Not intended for actual use|
-|Laser|./Laser_Script--Vector.js|Creates a raytraced beam|Box|[Laser (test)](https://app.physion.net/scenes/laser-test)|Properties can be adjusted in script|
+|Laser|./Laser--Vector.js|Creates a raytraced beam|Box|[Laser (test)](https://app.physion.net/scenes/laser-test)|Properties can be adjusted in script|
 |Self Driver|./SelfDriver.js|A car with raytraced circles that can solve mazes|Aiden Ravenshea|[Car VS Maze!](https://app.physion.net/scenes/car-vs-maze)|This scene is featured|
 |Snake Game|./SnakeGame.js|Creates the popular game Snake on physion.|Dimitris|[Snake Game](https://app.physion.net/scenes/snake-game)|Follow instructions on script to use|
 |Teleporter|./Teleporter.js|Teleports objects to another specified node|Dimitris|[Teleporters](https://app.physion.net/scenes/teleporters)|Type the exit node ID into the space provided|
