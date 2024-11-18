@@ -1,3 +1,5 @@
+> [!NOTE]
+> This tutorial assumes you are using th default layout setup.
 # How to implement a script on Physion:
 ## Select the Scripts folder.
 ![Application Screenshot](IMAGES/1.png)
