@@ -1,10 +1,9 @@
 # How to implement a script on Physion:
 ### Select the Scripts folder.
 ![Application Screenshot](IMAGES/0.png)
-### Go to the CODE section of the repository.
-![Application Screenshot](IMAGES/1.png)
 ### Select your script.
-![Application Screenshot](IMAGES/2.png)
+| ![Application Screenshot](IMAGES/1.png) | ![Application Screenshot](IMAGES/2.png) |
+|-----------------------------------------|-----------------------------------------|
 ### Copy raw file.
 | ![Application Screenshot](IMAGES/3.png) | ![Application Screenshot](IMAGES/7.png) |
 |-----------------------------------------|-----------------------------------------|
