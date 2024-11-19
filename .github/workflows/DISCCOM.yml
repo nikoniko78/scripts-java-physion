@@ -1,7 +1,7 @@
 name: Disc Comment
 
 on:
-  discussions:
+  discussion:
     types: [opened]
 
 jobs:
