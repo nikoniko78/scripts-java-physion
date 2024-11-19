@@ -10,7 +10,7 @@ __このリポジトリ内のapp.physion.netやスクリプトは私の所有物
 - 関連性のないコンテンツは追加されません。
 - READMEを編集して、以下の表にスクリプトと情報を追加できます。
 - **午後4:15(EST)**以降に送信された変更リクエストは、翌日まで保留されます。
-- [貢献ガイドライン](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/DOCS/Translations/%E6%97%A5%E6%9C%AC%E8%AA%9E/CONTRIBUTIONS.md)に従ってください。
+- [貢献ガイドライン](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/DOCS/Translations/%E6%97%A5%E6%9C%AC%E8%AA%9E/CONTRIBUTING.md)に従ってください。
 
 ## スクリプト:
 
