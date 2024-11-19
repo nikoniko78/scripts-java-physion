@@ -10,7 +10,7 @@ Si no sabes cómo usar un script, [aquí hay un tutorial.](https://github.com/ni
 - No se añadirá contenido no relacionado.
 - Puedes editar el README para incluir tu script e información en la tabla a continuación.
 - Todas las solicitudes de cambio se pospondrán hasta el día siguiente si se envían después de las **4:15PM(EST)**.
-- Sigue las [directrices de contribución.](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/DOCS/CONTRIBUTING.md)
+- Sigue las [directrices de contribución.](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/DOCS/Translations/Espa%C3%B1ol/CONTRIBUTING.md)
 
 ## Scripts:
 
