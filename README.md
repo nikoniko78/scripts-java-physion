@@ -42,7 +42,8 @@ Language Support (WIP)
 |Snake Game|./SnakeGame.js|Creates the popular game Snake on physion.|Dimitris|[Snake Game](https://app.physion.net/scenes/snake-game)|Follow instructions on script to use|
 |Teleporter|./Teleporter.js|Teleports objects to another specified node|Dimitris|[Teleporters](https://app.physion.net/scenes/teleporters)|Type the exit node ID into the space provided|
 |Timer|./Timer.js|Starts a timer from a text node|Sirfryingpan|[Timer Script(Free to use)](https://app.physion.net/scenes/timer-script-free-to-use)|Default is 5 minutes. Follow instructions on script to change|
-
+|Speedometeter|./Speedometer.js|Displays speed of node as text|Aiden Ravenshea|[car](https://app.physion.net/scenes/car-tvZ_oaiUV)|Used in a lot of things|
+|Joint Destroyer|./JointDestroyer.js|Destroys all joints that enter it|Aiden Ravenshea|[car](https://app.physion.net/scenes/car-tvZ_oaiUV)|Can lag if there are a lot of joints|
 </details>
 
 
