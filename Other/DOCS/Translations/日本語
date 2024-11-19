@@ -1,0 +1,38 @@
+# [Physionの](https://app.physion.net)専用スクリプトライブラリ。 | ![Static Badge](https://img.shields.io/badge/Status%3A-Available-lawngreen?style=flat-square&labelColor=black) |
+
+>[!NOTE]  
+__このリポジトリ内のapp.physion.netやスクリプトは私の所有物ではありません。__
+
+スクリプトの使い方がわからない場合は、[こちらのチュートリアル](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/HOW_TO_USE.md)を参照してください。
+
+## ルール:  
+- プルリクエストを送信して、自分のスクリプトを投稿してください。
+- 関連性のないコンテンツは追加されません。
+- READMEを編集して、以下の表にスクリプトと情報を追加できます。
+- **午後4:15(EST)**以降に送信された変更リクエストは、翌日まで保留されます。
+- [貢献ガイドライン](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/DOCS/CONTRIBUTING.md)に従ってください。
+
+## スクリプト:
+
+| スクリプト名 | ファイル       | 使用方法                     | クレジット                     | リンク               | 備考                |
+|--------------|----------------|-----------------------------|-------------------------------|---------------------|--------------------|
+|Slow Zone     | ./SlowZone.js  | 進入するノードを遅くする      | Ben Bell                     | [Slowzone Script](https://app.physion.net/scenes/slowzone-script)| プロパティはスクリプト内で調整可能|
+|Duplicator    | ./Duplicator.js| 進入するノードを複製する      | Unknown-Scene not found      | 不明                | 元の作成者が見つかりませんでした|
+|Bomb          | ./Bomb_Script.js| 接触時に爆発を作成する        | ssorc j                      | [Scene Obliterating Nuke](https://app.physion.net/scenes/scene-obliterating-nuke)| プロパティはスクリプト内で調整可能|
+---
+
+<details> <summary>すべて表示</summary>
+
+<br>
+
+| スクリプト名        | ファイル             | 使用方法                                              | クレジット              | リンク                                                | 備考                                      |
+|-------------------|---------------------|------------------------------------------------------|-----------------------|-------------------------------------------------------|-------------------------------------------|
+|Engine Spring      | ./EngineSpring.js   | エンジン内で燃焼のように機能するスプリングを作成        | Aiden Ravenshea       | [Car+Engine!](https://app.physion.net/scenes/car-engine-1qItEQwO-) | 専用スクリプト                              |
+|Expand And Split   | ./ExpandAndSplit.js | 円を無限に拡大して複製する                             | ssorc j               | [expand and split](https://app.physion.net/scenes/expand-and-split) | 実際の使用を目的としていない                 |
+|Laser              | ./Laser--Vector.js  | レイトレースされたビームを作成                           | Box                   | [Laser (test)](https://app.physion.net/scenes/laser-test) | プロパティはスクリプト内で調整可能           |
+|Self Driver        | ./SelfDriver.js     | 迷路を解くことができるレイトレースされた円を持つ車         | Aiden Ravenshea       | [Car VS Maze!](https://app.physion.net/scenes/car-vs-maze) | このシーンは注目されています                |
+|Snake Game         | ./SnakeGame.js      | Physionで人気のゲームSnakeを作成                        | Dimitris              | [Snake Game](https://app.physion.net/scenes/snake-game) | スクリプトの指示に従って使用してください     |
+|Teleporter         | ./Teleporter.js     | オブジェクトを別の指定されたノードにテレポート             | Dimitris              | [Teleporters](https://app.physion.net/scenes/teleporters) | 指定された場所に出口ノードIDを入力してください |
+|Timer              | ./Timer.js          | テキストノードからタイマーを開始                        | Sirfryingpan          | [Timer Script(Free to use)](https://app.physion.net/scenes/timer-script-free-to-use) | デフォルトは5分。スクリプトの指示に従って変更可能  |
+
+</details>
