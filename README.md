@@ -1,4 +1,3 @@
-
 # [Physion's](https://app.physion.net) dedicated script library. | ![Static Badge](https://img.shields.io/badge/Status%3A-Available-lawngreen?style=flat-square&labelColor=black) |
 
 >[!NOTE]  
@@ -8,7 +7,7 @@ If you do not know how to use a script, [here is a tutorial.](https://github.com
 
 Language Support
 ---
-- [mm](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/DOCS/Translations/%E6%97%A5%E6%9C%AC%E8%AA%9E.md)
+- [](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/DOCS/Translations/%E6%97%A5%E6%9C%AC%E8%AA%9E.md)
 
 
 ## Rules:  
