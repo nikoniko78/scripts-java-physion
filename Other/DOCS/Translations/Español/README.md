@@ -34,5 +34,6 @@ Si no sabes cómo usar un script, [aquí hay un tutorial.](https://github.com/ni
 |Juego de la Serpiente | ./SnakeGame.js     | Crea el popular juego de la serpiente en Physion | Dimitris                    | [Juego de la Serpiente](https://app.physion.net/scenes/snake-game) | Sigue las instrucciones del script       |
 |Teletransportador  | ./Teleporter.js    | Teletransporta objetos a otro nodo especificado | Dimitris                    | [Teletransportadores](https://app.physion.net/scenes/teleporters) | Escribe el ID del nodo de salida en el espacio proporcionado |
 |Temporizador       | ./Timer.js         | Inicia un temporizador desde un nodo de texto   | Sirfryingpan                | [Script de Temporizador (de uso gratuito)](https://app.physion.net/scenes/timer-script-free-to-use) | El valor predeterminado es 5 minutos. Sigue las instrucciones del script para cambiarlo |
-
+|Velocímetro | ./Speedometer.js | Muestra la velocidad del nodo como texto | Aiden Ravenshea | [coche](https://app.physion.net/scenes/car-tvZ_oaiUV) | Utilizado en muchas cosas |
+|Destructor de Juntas | ./JointDestroyer.js | Destruye todas las juntas que entran | Aiden Ravenshea | [coche](https://app.physion.net/scenes/car-tvZ_oaiUV) | Puede generar lag si hay muchas juntas |
 </details>
