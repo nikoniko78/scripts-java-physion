@@ -1,4 +1,4 @@
-> [!NOTA]
+> [!NOTE]
 > Esta instrucción asume que estás utilizando la configuración de diseño predeterminada.
 # Cómo implementar un script en Physion:
 ## Selecciona la carpeta Scripts.
