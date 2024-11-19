@@ -9,12 +9,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
       - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Add comment
         run: |
-          curl -X POST -H "Authorization: token ${{ secrets.Commenter }}" \
+          curl -v -X POST -H "Authorization: token ${{ secrets.Commenter }}" \
           -H "Accept: application/vnd.github.v3+json" \
           https://api.github.com/repos/${{ github.repository }}/discussions/${{ github.event.discussion.number }}/comments \
           -d '{"body":"Thanks for starting a discussion! Please check out [this link](https://example.com) for more information."}'
