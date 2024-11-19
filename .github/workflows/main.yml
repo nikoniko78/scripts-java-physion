@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
           node-version: '20'
 
@@ -19,7 +19,7 @@ jobs:
 
       - name: Add comment
         run: |
-          curl -v -X POST -H "Authorization: token ${{ secrets.Commenter }}" \
+          curl -v -X POST -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github.v3+json" \
           https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments \
           -d '{"body":"Thank you for your reccomendation. Please wait while we reveiw your changes."}'
