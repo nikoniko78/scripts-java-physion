@@ -3,7 +3,7 @@
 >[!NOTE]  
 __No soy propietario de app.physion.net ni de ninguno de los scripts en este repositorio.__
 
-Si no sabes cómo usar un script, [aquí hay un tutorial.](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/HOW_TO_USE.md)
+Si no sabes cómo usar un script, [aquí hay un tutorial.](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/HOW_TO_USE.Espa%C3%B1ol.md)
 
 ## Reglas:  
 - Publica tus propios scripts enviando un pull request.
