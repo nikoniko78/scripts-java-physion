@@ -5,7 +5,7 @@ __I do not own app.physion.net or any of the scripts on this repository.__
 
 If you do not know how to use a script, [here is a tutorial.](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/HOW_TO_USE.md)
 
-Language Support
+Language Support (WIP)
 ---
 - [日本語](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/DOCS/Translations/%E6%97%A5%E6%9C%AC%E8%AA%9E.md)
 
