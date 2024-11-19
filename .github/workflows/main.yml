@@ -1,8 +1,8 @@
-name: Discussion Comment
+name: Pull Request Comment
 
 on:
-  discussion:
-    types: [created]
+  pull_request:
+    types: [opened]
 
 jobs:
   comment:
@@ -21,5 +21,5 @@ jobs:
         run: |
           curl -v -X POST -H "Authorization: token ${{ secrets.Commenter }}" \
           -H "Accept: application/vnd.github.v3+json" \
-          https://api.github.com/repos/${{ github.repository }}/discussions/${{ github.event.discussion.number }}/comments \
-          -d '{"body":"Thanks for starting a discussion! Please check out [this link](https://example.com) for more information."}'
+          https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments \
+          -d '{"body":"Thanks for opening this pull request! Please check out [this link](https://example.com) for more information."}'
