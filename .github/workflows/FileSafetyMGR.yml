@@ -1,0 +1,25 @@
+name: Trusted Script Execution
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  review_script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Review Pull Request
+        if: contains(github.event.pull_request.body, 'Approved by maintainer')
+        run: echo "Script looks trustworthy and is approved."
+
+      - name: Execute Script
+        if: contains(github.event.pull_request.body, 'Approved by maintainer')
+        run: ./your-script.sh
+
+      - name: Notify about Review
+        if: !contains(github.event.pull_request.body, 'Approved by maintainer')
+        run: echo "Script requires approval from a maintainer before execution."
