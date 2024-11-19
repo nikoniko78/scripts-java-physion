@@ -1,8 +1,8 @@
-name: Disc Comment
+name: Discussion Comment
 
 on:
   discussion:
-    types: [opened]
+    types: [created]
 
 jobs:
   comment:
@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
 
@@ -19,7 +19,7 @@ jobs:
 
       - name: Add comment
         run: |
-          curl -v -X POST -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          curl -v -X POST -H "Authorization: token ${{ secrets.Commenter }}" \
           -H "Accept: application/vnd.github.v3+json" \
-          https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments \
-          -d '{"body":"Thank you for your reccomendation. Please wait while we reveiw your changes."}'
+          https://api.github.com/repos/${{ github.repository }}/discussions/${{ github.event.discussion.number }}/comments \
+          -d '{"body":"Thanks for starting a discussion! Please check out [this link](https://example.com) for more information."}'
