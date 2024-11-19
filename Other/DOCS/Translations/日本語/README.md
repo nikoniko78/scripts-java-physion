@@ -3,7 +3,7 @@
 >[!NOTE]  
 __このリポジトリ内のapp.physion.netやスクリプトは私の所有物ではありません。__
 
-スクリプトの使い方がわからない場合は、[こちらのチュートリアル](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/HOW_TO_USE.md)を参照してください。
+スクリプトの使い方がわからない場合は、[こちらのチュートリアル](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/HOW_TO_USE.%E6%97%A5%E6%9C%AC%E8%AA%9E.md)を参照してください。
 
 ## ルール:  
 - プルリクエストを送信して、自分のスクリプトを投稿してください。
