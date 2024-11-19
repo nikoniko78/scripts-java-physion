@@ -22,4 +22,4 @@ jobs:
           curl -v -X POST -H "Authorization: token ${{ secrets.Commenter }}" \
           -H "Accept: application/vnd.github.v3+json" \
           https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments \
-          -d '{"body":"Thanks for opening this pull request! Please check out [this link](https://example.com) for more information."}'
+          -d '{"body":"Thank you for your reccomendation. Please wait while we reveiw your changes."}'
