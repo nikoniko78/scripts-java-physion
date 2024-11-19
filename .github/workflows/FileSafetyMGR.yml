@@ -13,13 +13,19 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Review Pull Request
-        if: contains(github.event.pull_request.body, 'Approved by maintainer')
-        run: echo "Script looks trustworthy and is approved."
+        id: review
+        run: echo "Reviewing script..."
+
+      - name: Check if Approved
+        id: check_approval
+        run: echo "::set-output name=approved::$(echo '${{ github.event.pull_request.body }}' | grep -q 'Approved by maintainer' && echo 'true' || echo 'false')"
 
       - name: Execute Script
-        if: contains(github.event.pull_request.body, 'Approved by maintainer')
-        run: ./your-script.sh
+        if: steps.check_approval.outputs.approved == 'true'
+        run: |
+          echo "Script looks trustworthy and is approved."
+          ./your-script.sh
 
       - name: Notify about Review
-        if: !contains(github.event.pull_request.body, 'Approved by maintainer')
+        if: steps.check_approval.outputs.approved == 'false'
         run: echo "Script requires approval from a maintainer before execution."
