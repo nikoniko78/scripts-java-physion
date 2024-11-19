@@ -34,5 +34,5 @@ __このリポジトリ内のapp.physion.netやスクリプトは私の所有物
 |スネークゲーム          | ./SnakeGame.js           | Physionで人気のゲーム蛇を作成                        | ディミトリス              | [スネークゲーム](https://app.physion.net/scenes/snake-game)                        | スクリプトの指示に従って使用してください        |
 |テレポーター           | ./Teleporter.js          | オブジェクトを別の指定されたノードにテレポート             | ディミトリス               | [テレポーター](https://app.physion.net/scenes/teleporters)                          | 指定された場所に出口ノードIDを入力してください |
 |タイマー              | ./Timer.js               | テキストノードからタイマーを開始                        | Sirfryingpan           | [タイマースクリプト（無料で使用）](https://app.physion.net/scenes/timer-script-free-to-use)      | デフォルトは5分。スクリプトの指示に従って変更可能  |
-
+|スピードメーター | ./Speedometer.js | ノードの速度をテキストとして表示 | Aiden Ravenshea | [車](https://app.physion.net/scenes/car-tvZ_oaiUV) | 多くの場面で使用されています | |ジョイント破壊装置 | ./JointDestroyer.js | 入るすべてのジョイントを破壊する | Aiden Ravenshea | [車](https://app.physion.net/scenes/car-tvZ_oaiUV) | ジョイントが多いとラグが発生することがあります
 </details>
