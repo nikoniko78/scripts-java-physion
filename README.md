@@ -8,7 +8,7 @@ If you do not know how to use a script, [here is a tutorial.](https://github.com
 
 Language Support
 ---
-- [](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/DOCS/Translations/%E6%97%A5%E6%9C%AC%E8%AA%9E.md)
+- [mm](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/DOCS/Translations/%E6%97%A5%E6%9C%AC%E8%AA%9E.md)
 
 
 ## Rules:  
