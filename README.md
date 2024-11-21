@@ -26,7 +26,7 @@ Language Support (WIP)
 |-------------|--------------|-----------------------------|----------------------------|---------------------|--------------------|
 |Slow Zone| ./SlowZone.js  | Slows down nodes which enter it | Ben Bell | [Slowzone Script](https://app.physion.net/scenes/slowzone-script)|Properties can be adjusted in script|
 |Duplicator|./Duplicator.js|Duplicates nodes that enter it|Unknown-Scene not found|Unknown|Could not find original creator|
-|Bomb|./Bomb_Script.js|Creates an explosion on contact|ssorc j| [Scene Obliterating Nuke](https://app.physion.net/scenes/scene-obliterating-nuke)|Properties can be adjusted in script|
+|Bomb|./Bomb_Script.js|Creates an explosion on contact|Aiden Ravenshea| [Scene Obliterating Nuke](https://app.physion.net/scenes/scene-obliterating-nuke)|Properties can be adjusted in script|
 ---
 
 <details> <summary>Show All</summary>
