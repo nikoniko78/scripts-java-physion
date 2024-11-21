@@ -1,0 +1,92 @@
+/**
+ * This script will create a simple ragdoll
+ */
+class SimpleRagdoll {
+
+    constructor(headRadius, bodyWidth, bodyHeight, limbLength) {
+        this.headRadius = headRadius || 1;
+        this.bodyWidth = bodyWidth || 2;
+        this.bodyHeight = bodyHeight || 3;
+        this.limbLength = limbLength || 2;
+
+        this._headUrl = "https://example.com/path/to/head_texture.webp"; // Placeholder
+        this._bodyUrl = "https://example.com/path/to/body_texture.webp"; // Placeholder
+        this._limbUrl = "https://example.com/path/to/limb_texture.webp"; // Placeholder
+    }
+
+    async create(scene, position) {
+        position = position || { x: 0, y: 0 };
+
+        await physion.utils.preloadTexture(this._headUrl);
+        await physion.utils.preloadTexture(this._bodyUrl);
+        await physion.utils.preloadTexture(this._limbUrl);
+
+        const headAsset = new physion.ImageAsset(this._headUrl);
+        headAsset.name = "Head";
+        scene.assetsLibrary.addAsset(headAsset);
+
+        const bodyAsset = new physion.ImageAsset(this._bodyUrl);
+        bodyAsset.name = "Body";
+        scene.assetsLibrary.addAsset(bodyAsset);
+
+        const limbAsset = new physion.ImageAsset(this._limbUrl);
+        limbAsset.name = "Limb";
+        scene.assetsLibrary.addAsset(limbAsset);
+
+        const head = this.createHead(position.x, position.y + this.bodyHeight / 2 + this.headRadius, headAsset.id);
+        const body = this.createBody(position.x, position.y, bodyAsset.id);
+        const leftArm = this.createLimb(position.x - this.bodyWidth, position.y, limbAsset.id);
+        const rightArm = this.createLimb(position.x + this.bodyWidth, position.y, limbAsset.id);
+        const leftLeg = this.createLimb(position.x - this.bodyWidth / 2, position.y - this.bodyHeight, limbAsset.id);
+        const rightLeg = this.createLimb(position.x + this.bodyWidth / 2, position.y - this.bodyHeight, limbAsset.id);
+
+        const joints = [
+            this.createRevoluteJoint(body, head),
+            this.createRevoluteJoint(body, leftArm),
+            this.createRevoluteJoint(body, rightArm),
+            this.createRevoluteJoint(body, leftLeg),
+            this.createRevoluteJoint(body, rightLeg)
+        ];
+
+        scene.addChildren([head, body, leftArm, rightArm, leftLeg, rightLeg, ...joints]);
+        
+        // Adjust textures
+        head.autoAdjustFillTexture();
+        body.autoAdjustFillTexture();
+        leftArm.autoAdjustFillTexture();
+        rightArm.autoAdjustFillTexture();
+        leftLeg.autoAdjustFillTexture();
+        rightLeg.autoAdjustFillTexture();
+    }
+
+    createHead(x, y, fillTexture) {
+        const head = new physion.CircleNode(this.headRadius);
+        head.initNode(x, y);
+        head.fillTexture = fillTexture;
+        return head;
+    }
+
+    createBody(x, y, fillTexture) {
+        const body = new physion.RectangleNode(this.bodyWidth, this.bodyHeight);
+        body.initNode(x, y);
+        body.fillTexture = fillTexture;
+        return body;
+    }
+
+    createLimb(x, y, fillTexture) {
+        const limb = new physion.RectangleNode(0.5, this.limbLength);
+        limb.initNode(x, y);
+        limb.fillTexture = fillTexture;
+        return limb;
+    }
+
+    createRevoluteJoint(body, limb) {
+        const localAnchorLimb = { x: 0, y: 0 };
+        const localAnchorBody = body.getSceneTransform().applyInverse(limb.getScenePosition());
+
+        const joint = new physion.RevoluteJointNode(limb.id, body.id, localAnchorLimb, localAnchorBody);
+        joint.motorEnabled = true; // Optional motor for dynamic movement
+        joint.fillColor = 0xcccccc; // Color for visibility
+        return joint;
+    }
+}
