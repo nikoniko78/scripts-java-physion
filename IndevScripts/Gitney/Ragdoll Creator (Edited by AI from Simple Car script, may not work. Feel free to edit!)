@@ -1,5 +1,5 @@
 /**
- * This script will create a simple ragdoll
+ * This script will create a simple ragdoll.
  */
 class SimpleRagdoll {
 
