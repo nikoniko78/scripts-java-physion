@@ -1,6 +1,6 @@
 # [Physion's](https://app.physion.net) dedicated script library. | ![Static Badge](https://img.shields.io/badge/Status%3A-Down-grey?style=flat-square&labelColor=black) |
 
-## _We're down for maintence. We estimate that you will be able to join and send pull requests by 12/13/2024_
+## _We're down for maintenance. We estimate that you will be able to join and send pull requests by 12/13/2024_
 
 >[!NOTE]  
 __I do not own app.physion.net or any of the scripts on this repository.__
