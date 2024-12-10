@@ -1,7 +1,5 @@
 # [Physion](https://app.physion.net) la biblioteca de scripts dedicada. | ![Static Badge](https://img.shields.io/badge/Estado%3A-Disponible-lawngreen?style=flat-square&labelColor=black) |
 
-## _Estamos en mantenimiento. Estimamos que podrá unirse y enviar solicitudes de extracción antes del 13 de diciembre de 2024._
-
 >[!NOTE]  
 __No soy propietario de app.physion.net ni de ninguno de los scripts en este repositorio.__
 
