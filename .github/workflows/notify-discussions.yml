@@ -1,24 +1,27 @@
 name: Notify Discussions
-on:
-  workflow_dispatch:  # Allows manual triggering of the workflow
+
+on: workflow_dispatch
 
 jobs:
-  send-notification:
-    runs-on: ubuntu-24.04  # Use the latest Ubuntu version to avoid warnings
+  notify:
+    runs-on: ubuntu-latest
+    permissions:
+      discussions: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
       - name: Install jq
-        run: sudo apt-get install -y jq  # Ensure jq is installed
+        run: sudo apt-get install -y jq
 
-      - name: Send notification to discussions
+      - name: Notify Discussions
         env:
           GITHUB_TOKEN: ${{ secrets.commenter }}
         run: |
           RESPONSE=$(curl -s -H "Authorization: token ${{ secrets.commenter }}" \
                             -H "Accept: application/vnd.github.v3+json" \
                             https://api.github.com/repos/${{ github.repository }}/discussions)
+          echo "API response: $RESPONSE"
           if echo "$RESPONSE" | jq empty > /dev/null 2>&1; then
             echo "$RESPONSE" | jq -r '.[] | select(.state == "open") | .url' | while read -r url; do
               curl -s -H "Authorization: token ${{ secrets.commenter }}" \
@@ -30,4 +33,5 @@ jobs:
           else
             echo "Failed to parse JSON response from GitHub API. Exiting with error."
             exit 1
+
           fi
