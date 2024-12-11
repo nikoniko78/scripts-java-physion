@@ -14,7 +14,7 @@ jobs:
 
       - name: Send notification to discussions
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.commenter }}
         run: |
           RESPONSE=$(curl -s -H "Authorization: token ${{ secrets.commenter }}" \
                             -H "Accept: application/vnd.github.v3+json" \
