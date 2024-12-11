@@ -1,0 +1,26 @@
+name: Notify Discussions
+on:
+  workflow_dispatch:  # Allows manual triggering of the workflow
+
+jobs:
+  send-notification:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Send notification to discussions
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -s -H "Authorization: token $GITHUB_TOKEN" \
+               -H "Accept: application/vnd.github.v3+json" \
+               https://api.github.com/repos/${{ github.repository }}/discussions \
+               | jq -r '.[] | select(.state == "open") | .url' \
+               | while read -r url; do
+                   curl -s -H "Authorization: token $GITHUB_TOKEN" \
+                        -H "Accept: application/vnd.github.v3+json" \
+                        -X POST \
+                        -d '{"body":"The discussions tab is currently unresponsive."}' \
+                        "${url}/comments";
+                 done
