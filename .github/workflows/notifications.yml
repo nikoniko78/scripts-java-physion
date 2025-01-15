@@ -1,0 +1,15 @@
+name: Notify on Issues and Pull Requests
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Send Notification
+      run: echo "You have been notified of a new issue or pull request."
