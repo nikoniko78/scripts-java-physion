@@ -21,9 +21,7 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         script: |
           const issue_number = context.issue.number;
-          const comment = context.issue.pull_request ? 
-            'Thank you for your pull request! We have been notified and will review it shortly.' : 
-            'Thank you for your issue! We have been notified and will review it shortly.';
+          const comment = 'Thank you for your issue! We have been notified and will review it shortly.';
           await github.issues.createComment({
             owner: context.repo.owner,
             repo: context.repo.repo,
