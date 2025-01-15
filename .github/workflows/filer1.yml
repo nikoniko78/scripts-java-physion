@@ -36,4 +36,4 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: "Thank you for your contribution! Your issue will be reviewed shortly."
-          pr-message: "Thank you for your commitment! Your file is currently being scanned for malicious content."
+          pr-message: "Thank you for your commitment! Your request will be reviewed shortly."
