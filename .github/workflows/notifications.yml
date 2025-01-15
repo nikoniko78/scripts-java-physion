@@ -11,5 +11,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Send Notification
-      run: echo "You have been notified of a new issue or pull request."
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Add a comment to new issues
+      if: github.event_name == 'issues'
+      uses: actions/github-script@v6
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        script: |
+          const issue_number = context.issue.number;
+          const comment = context.issue.pull_request ? 
+            'Thank you for your pull request! We have been notified and will review it shortly.' : 
+            'Thank you for your issue! We have been notified and will review it shortly.';
+          await github.issues.createComment({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            issue_number,
+            body: comment
+          });
+
+    - name: Add a comment to new pull requests
+      if: github.event_name == 'pull_request'
+      uses: actions/github-script@v6
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        script: |
+          const pull_number = context.issue.number;
+          const comment = 'Thank you for your pull request! We have been notified and will review it shortly.';
+          await github.pulls.createReview({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            pull_number,
+            body: comment,
+            event: 'COMMENT'
+          });
