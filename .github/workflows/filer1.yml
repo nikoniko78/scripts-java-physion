@@ -1,4 +1,4 @@
-name: filer1
+name: Greetings
 
 on:
   pull_request_target:
@@ -13,8 +13,8 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-      - name: Check for previous contributions
-        id: check_contributions
+      - name: Check for previous issues
+        id: check_issues
         uses: actions/github-script@v4
         with:
           script: |
@@ -22,16 +22,25 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               creator: context.actor,
+              state: 'all'
             });
+            return issues.length > 1;
+
+      - name: Check for previous pull requests
+        id: check_pulls
+        uses: actions/github-script@v4
+        with:
+          script: |
             const { data: pulls } = await github.pulls.list({
               owner: context.repo.owner,
               repo: context.repo.repo,
               creator: context.actor,
+              state: 'all'
             });
-            return issues.length > 1 || pulls.length > 1;
+            return pulls.length > 1;
 
       - name: Greet the user
-        if: steps.check_contributions.outputs.result == 'true'
+        if: steps.check_issues.outputs.result == 'true' || steps.check_pulls.outputs.result == 'true'
         uses: actions/first-interaction@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
