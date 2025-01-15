@@ -1,0 +1,39 @@
+name: Greetings
+
+on:
+  pull_request_target:
+    types: [opened]
+  issues:
+    types: [opened]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - name: Check for previous contributions
+        id: check_contributions
+        uses: actions/github-script@v4
+        with:
+          script: |
+            const { data: issues } = await github.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              creator: context.actor,
+            });
+            const { data: pulls } = await github.pulls.list({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              creator: context.actor,
+            });
+            return issues.length > 1 || pulls.length > 1;
+
+      - name: Greet the user
+        if: steps.check_contributions.outputs.result == 'true'
+        uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "Thank you for your contribution! Your issue will be reviewed shortly."
+          pr-message: "Thank you for your commitment! Your file is currently being scanned for malicious content."
