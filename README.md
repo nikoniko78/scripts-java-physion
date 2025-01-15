@@ -28,14 +28,6 @@ Contact me at jal36804@outlook.com
 |Slow Zone| ./SlowZone.js  | Slows down nodes which enter it | Ben Bell | [Slowzone Script](https://app.physion.net/scenes/slowzone-script)|Properties can be adjusted in script|
 |Duplicator|./Duplicator.js|Duplicates nodes that enter it|Aiden Ravenshea|[Coin Game](https://app.physion.net/scenes/coin-game)||
 |Bomb|./Bomb_Script.js|Creates an explosion on contact|Aiden Ravenshea| [Scene Obliterating Nuke](https://app.physion.net/scenes/scene-obliterating-nuke)|Properties can be adjusted in script|
----
-
-<details> <summary>Show All</summary>
-
-<br>
-
-| Script Name | File         | Use                         | Credit                       | Link              |Note                |
-|-------------|--------------|-----------------------------|----------------------------|---------------------|--------------------|
 |Engine Spring|./EngineSpring.js|Creates a spring which acts like fuel combustion in an engine|Aiden Ravenshea|[Car+Engine!](https://app.physion.net/scenes/car-engine-1qItEQwO-)|Specialized script|
 |Expand And Split|./ExpandAndSplit.js|Makes a circle expand and duplicate infinitely|ssorc j|[expand and split](https://app.physion.net/scenes/expand-and-split)|Not intended for actual use|
 |Laser|./Laser--Vector.js|Creates a raytraced beam|Box|[Laser (test)](https://app.physion.net/scenes/laser-test)|Properties can be adjusted in script|
@@ -47,7 +39,6 @@ Contact me at jal36804@outlook.com
 |Joint Destroyer|./JointDestroyer.js|Destroys all joints that enter it|Aiden Ravenshea|[car](https://app.physion.net/scenes/car-tvZ_oaiUV)|Can lag if there are a lot of joints|
 |Animation|./Animation.js|A box is set up to move to specified points at specific times.|Aiden Ravenshea|[Animation](https://app.physion.net/scenes/animation-test)|Paired with DeltaTime for functionality|
 |DeltaTime|./DeltaTime.js|Functionality driver for Animation|Aiden Ravenshea|[Animation](https://app.physion.net/scenes/animation-test)||
-</details>
 
 
 <!--<p>Text on the left <img align="right" src="![Static Badge](https://img.shields.io/badge/Status%3A-Available-brightgreen?style=flat-square)"></p>-->
