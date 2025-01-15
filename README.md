@@ -45,6 +45,8 @@ Language Support (WIP)
 |Timer|./Timer.js|Starts a timer from a text node|Sirfryingpan|[Timer Script(Free to use)](https://app.physion.net/scenes/timer-script-free-to-use)|Default is 5 minutes. Follow instructions on script to change|
 |Speedometeter|./Speedometer.js|Displays speed of node as text|Aiden Ravenshea|[car](https://app.physion.net/scenes/car-tvZ_oaiUV)|Used in a lot of things|
 |Joint Destroyer|./JointDestroyer.js|Destroys all joints that enter it|Aiden Ravenshea|[car](https://app.physion.net/scenes/car-tvZ_oaiUV)|Can lag if there are a lot of joints|
+|Animation|./Animation.js|A box is set up to move to specified points at specific times.|Aiden Ravenshea|[Animation](https://app.physion.net/scenes/animation-test)|Paired with DeltaTime for functionality|
+|DeltaTime|./DeltaTime.js|Functionality driver for Animation|Aiden Ravenshea|[Animation](https://app.physion.net/scenes/animation-test)||
 </details>
 
 
