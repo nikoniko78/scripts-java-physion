@@ -17,7 +17,7 @@ Contact me at jal36804@outlook.com
 - Post your own scripts by sending a pull request.
 - Unrelated content will not be added.
 - You can edit the README to include your script and info in the table below.
-- All requests will be pended until the next day if they are sent past **4:15PM(EST)**.
+- All requests will be pended until the next day if they are sent past **4:15PM(UTC+9)**.
 - Follow the [contrubuting guidelines.](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/DOCS/CONTRIBUTING.md)
 
 
