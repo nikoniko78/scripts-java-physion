@@ -11,7 +11,7 @@ Language Support (WIP)
 - [Español](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/DOCS/Translations/Espa%C3%B1ol/README.md)
 - [日本語](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/DOCS/Translations/%E6%97%A5%E6%9C%AC%E8%AA%9E/README.md)
 
-Contact me at jal36804@outlook.com
+Contact me at jal36804@aol.com
 
 ## Rules:  
 - Post your own scripts by sending a pull request.
