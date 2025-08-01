@@ -18,7 +18,7 @@ Contact me at jal36804@aol.com
 - Unrelated content will not be added.
 - You can edit the README to include your script and info in the table below.
 - All requests will be pended until the next day if they are sent past **4:15PM(UTC+9)**.
-- Follow the [contrubuting guidelines.](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/DOCS/CONTRIBUTING.md)
+- Follow the [contributing guidelines.](https://github.com/nikoniko78/scripts-java-physion/blob/main/Other/DOCS/CONTRIBUTING.md)
 
 
 ## Scripts:
