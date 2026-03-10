@@ -1,4 +1,4 @@
-# [Physion's](https://app.physion.net) dedicated script library. | ![Static Badge](https://img.shields.io/badge/Status%3A-Active-lawngreen?style=flat-square&labelColor=black) |
+# [Physion's](https://app.physion.net) dedicated script library. | ![Static Badge](https://img.shields.io/badge/Status%3A-Inactive-gold?style=flat-square&labelColor=black) |
 
 
 >[!NOTE]  
